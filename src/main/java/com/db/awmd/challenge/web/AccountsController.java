@@ -26,43 +26,42 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class AccountsController {
 
-  private final AccountsService accountsService;
+	private final AccountsService accountsService;
 
-  @Autowired
-  public AccountsController(AccountsService accountsService) {
-    this.accountsService = accountsService;
-  }
+	@Autowired
+	public AccountsController(AccountsService accountsService) {
+		this.accountsService = accountsService;
+	}
 
-  @PostMapping(consumes = MediaType.APPLICATION_JSON_VALUE)
-  public ResponseEntity<Object> createAccount(@RequestBody @Valid Account account) {
-    log.info("Creating account {}", account);
+	@PostMapping(consumes = MediaType.APPLICATION_JSON_VALUE)
+	public ResponseEntity<Object> createAccount(@RequestBody @Valid Account account) {
+		log.info("Creating account {}", account);
 
-    try {
-    		this.accountsService.createAccount(account);
-    } catch (DuplicateAccountIdException daie) {
-      return new ResponseEntity<>(daie.getMessage(), HttpStatus.BAD_REQUEST);
-    }
+		try {
+			this.accountsService.createAccount(account);
+		} catch (DuplicateAccountIdException daie) {
+			return new ResponseEntity<>(daie.getMessage(), HttpStatus.BAD_REQUEST);
+		}
 
-    return new ResponseEntity<>(HttpStatus.CREATED);
-  }
+		return new ResponseEntity<>(HttpStatus.CREATED);
+	}
 
-  @GetMapping(path = "/{accountId}")
-  public Account getAccount(@PathVariable String accountId) {
-    log.info("Retrieving account for id {}", accountId);
-    return this.accountsService.getAccount(accountId);
-  }
-  
-  @PostMapping(path = "/transfer", consumes = MediaType.APPLICATION_JSON_VALUE)
-  public ResponseEntity<Object> transfer(@RequestBody @Valid Transfer transfer) {
-	  
-	  log.info("transfering {} from {} to {}", transfer.getAmount(), transfer.getFromAccountId(), transfer.getToAccountId());
-	    try {
-	    		this.accountsService.doTransfer(transfer.getFromAccountId(), transfer.getToAccountId(), transfer.getAmount());
-	    } catch (OverdraftAccountException oae) {
-	      return new ResponseEntity<>(oae.getMessage(), HttpStatus.NOT_ACCEPTABLE);
-	    }
-	  
-	  return new ResponseEntity<>(HttpStatus.ACCEPTED);
-  }
+	@GetMapping(path = "/{accountId}")
+	public Account getAccount(@PathVariable String accountId) {
+		log.info("Retrieving account for id {}", accountId);
+		return this.accountsService.getAccount(accountId);
+	}
+
+	@PostMapping(path = "/transfer", consumes = MediaType.APPLICATION_JSON_VALUE)
+	public ResponseEntity<Object> transfer(@RequestBody @Valid Transfer transfer) {
+		log.info("transfering {} from {} to {}", transfer.getAmount(), transfer.getFromAccountId(), transfer.getToAccountId());
+		try {
+			this.accountsService.doTransfer(transfer.getFromAccountId(), transfer.getToAccountId(), transfer.getAmount());
+		} catch (OverdraftAccountException oae) {
+			return new ResponseEntity<>(oae.getMessage(), HttpStatus.NOT_ACCEPTABLE);
+		}
+
+		return new ResponseEntity<>(HttpStatus.ACCEPTED);
+	}
 
 }
