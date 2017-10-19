@@ -1,0 +1,11 @@
+- Add within the Account constructor a check to avoid to initialize it with a negative balance
+
+- parameterized TestNG class and introduce a balance check at the end of the whole iteration
+
+- Introduce a model package separate from the domain’s one in order to store all the Pojo used to communicate between frontend and rest api
+
+- Introduce a better mocking for the notification services
+
+- Enlarge the test mutliTransfer with negative balances casuistic plus floating point values
+
+- Update all the existing and future exceptions with an ID code
