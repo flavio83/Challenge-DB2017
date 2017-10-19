@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="11" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="2200" started-at="2017-10-19T15:30:12Z" finished-at="2017-10-19T15:30:15Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="2200" started-at="2017-10-19T15:30:12Z" finished-at="2017-10-19T15:30:15Z">
+      <class name="com.db.awmd.challenge.MultiThreadAccountsServiceTest">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:com.db.awmd.challenge.MultiThreadAccountsServiceTest@51e5fc98]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="8" started-at="2017-10-19T17:30:12Z" finished-at="2017-10-19T17:30:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.db.awmd.challenge.MultiThreadAccountsServiceTest@51e5fc98]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="1652" started-at="2017-10-19T17:30:12Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2017-10-19T17:30:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.db.awmd.challenge.MultiThreadAccountsServiceTest@51e5fc98]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2017-10-19T17:30:14Z" finished-at="2017-10-19T17:30:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.db.awmd.challenge.MultiThreadAccountsServiceTest.beforeMethod()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.db.awmd.challenge.MultiThreadAccountsServiceTest@51e5fc98]" name="beforeMethod" duration-ms="4" started-at="2017-10-19T17:30:14Z" finished-at="2017-10-19T17:30:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.db.awmd.challenge.MultiThreadAccountsServiceTest@51e5fc98]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2017-10-19T17:30:14Z" finished-at="2017-10-19T17:30:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.db.awmd.challenge.MultiThreadAccountsServiceTest.beforeMethod()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.db.awmd.challenge.MultiThreadAccountsServiceTest@51e5fc98]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2017-10-19T17:30:14Z" finished-at="2017-10-19T17:30:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.db.awmd.challenge.MultiThreadAccountsServiceTest.makeMultipleTransfer()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.db.awmd.challenge.MultiThreadAccountsServiceTest@51e5fc98]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2017-10-19T17:30:14Z" finished-at="2017-10-19T17:30:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.db.awmd.challenge.MultiThreadAccountsServiceTest.makeMultipleTransfer()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.db.awmd.challenge.MultiThreadAccountsServiceTest@51e5fc98]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2017-10-19T17:30:14Z" finished-at="2017-10-19T17:30:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.db.awmd.challenge.MultiThreadAccountsServiceTest.makeMultipleTransfer()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="makeMultipleTransfer()[pri:0, instance:com.db.awmd.challenge.MultiThreadAccountsServiceTest@51e5fc98]" name="makeMultipleTransfer" duration-ms="516" started-at="2017-10-19T17:30:14Z" finished-at="2017-10-19T17:30:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- makeMultipleTransfer -->
+        <test-method status="PASS" signature="makeMultipleTransfer()[pri:0, instance:com.db.awmd.challenge.MultiThreadAccountsServiceTest@51e5fc98]" name="makeMultipleTransfer" duration-ms="484" started-at="2017-10-19T17:30:14Z" finished-at="2017-10-19T17:30:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- makeMultipleTransfer -->
+        <test-method status="PASS" signature="makeMultipleTransfer()[pri:0, instance:com.db.awmd.challenge.MultiThreadAccountsServiceTest@51e5fc98]" name="makeMultipleTransfer" duration-ms="480" started-at="2017-10-19T17:30:14Z" finished-at="2017-10-19T17:30:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- makeMultipleTransfer -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.db.awmd.challenge.MultiThreadAccountsServiceTest@51e5fc98]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2017-10-19T17:30:14Z" finished-at="2017-10-19T17:30:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.db.awmd.challenge.MultiThreadAccountsServiceTest.makeMultipleTransfer()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="makeMultipleTransfer()[pri:0, instance:com.db.awmd.challenge.MultiThreadAccountsServiceTest@51e5fc98]" name="makeMultipleTransfer" duration-ms="474" started-at="2017-10-19T17:30:14Z" finished-at="2017-10-19T17:30:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- makeMultipleTransfer -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.db.awmd.challenge.MultiThreadAccountsServiceTest@51e5fc98]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2017-10-19T17:30:14Z" finished-at="2017-10-19T17:30:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.db.awmd.challenge.MultiThreadAccountsServiceTest.makeMultipleTransfer()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="makeMultipleTransfer()[pri:0, instance:com.db.awmd.challenge.MultiThreadAccountsServiceTest@51e5fc98]" name="makeMultipleTransfer" duration-ms="479" started-at="2017-10-19T17:30:14Z" finished-at="2017-10-19T17:30:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- makeMultipleTransfer -->
+        <test-method status="PASS" signature="makeMultipleTransfer()[pri:0, instance:com.db.awmd.challenge.MultiThreadAccountsServiceTest@51e5fc98]" name="makeMultipleTransfer" duration-ms="471" started-at="2017-10-19T17:30:14Z" finished-at="2017-10-19T17:30:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- makeMultipleTransfer -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.db.awmd.challenge.MultiThreadAccountsServiceTest@51e5fc98]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2017-10-19T17:30:14Z" finished-at="2017-10-19T17:30:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.db.awmd.challenge.MultiThreadAccountsServiceTest.makeMultipleTransfer()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="makeMultipleTransfer()[pri:0, instance:com.db.awmd.challenge.MultiThreadAccountsServiceTest@51e5fc98]" name="makeMultipleTransfer" duration-ms="438" started-at="2017-10-19T17:30:14Z" finished-at="2017-10-19T17:30:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- makeMultipleTransfer -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.db.awmd.challenge.MultiThreadAccountsServiceTest@51e5fc98]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2017-10-19T17:30:14Z" finished-at="2017-10-19T17:30:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.db.awmd.challenge.MultiThreadAccountsServiceTest.makeMultipleTransfer()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="makeMultipleTransfer()[pri:0, instance:com.db.awmd.challenge.MultiThreadAccountsServiceTest@51e5fc98]" name="makeMultipleTransfer" duration-ms="466" started-at="2017-10-19T17:30:14Z" finished-at="2017-10-19T17:30:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- makeMultipleTransfer -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.db.awmd.challenge.MultiThreadAccountsServiceTest@51e5fc98]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2017-10-19T17:30:14Z" finished-at="2017-10-19T17:30:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.db.awmd.challenge.MultiThreadAccountsServiceTest.makeMultipleTransfer()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.db.awmd.challenge.MultiThreadAccountsServiceTest@51e5fc98]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2017-10-19T17:30:14Z" finished-at="2017-10-19T17:30:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.db.awmd.challenge.MultiThreadAccountsServiceTest.makeMultipleTransfer()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.db.awmd.challenge.MultiThreadAccountsServiceTest@51e5fc98]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2017-10-19T17:30:14Z" finished-at="2017-10-19T17:30:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.db.awmd.challenge.MultiThreadAccountsServiceTest.makeMultipleTransfer()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="makeMultipleTransfer()[pri:0, instance:com.db.awmd.challenge.MultiThreadAccountsServiceTest@51e5fc98]" name="makeMultipleTransfer" duration-ms="464" started-at="2017-10-19T17:30:14Z" finished-at="2017-10-19T17:30:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- makeMultipleTransfer -->
+        <test-method status="PASS" signature="makeMultipleTransfer()[pri:0, instance:com.db.awmd.challenge.MultiThreadAccountsServiceTest@51e5fc98]" name="makeMultipleTransfer" duration-ms="476" started-at="2017-10-19T17:30:14Z" finished-at="2017-10-19T17:30:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- makeMultipleTransfer -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.db.awmd.challenge.MultiThreadAccountsServiceTest@51e5fc98]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2017-10-19T17:30:15Z" finished-at="2017-10-19T17:30:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.db.awmd.challenge.MultiThreadAccountsServiceTest.makeMultipleTransfer()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.db.awmd.challenge.MultiThreadAccountsServiceTest@51e5fc98]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2017-10-19T17:30:15Z" finished-at="2017-10-19T17:30:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.db.awmd.challenge.MultiThreadAccountsServiceTest.makeMultipleTransfer()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.db.awmd.challenge.MultiThreadAccountsServiceTest@51e5fc98]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2017-10-19T17:30:15Z" finished-at="2017-10-19T17:30:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.db.awmd.challenge.MultiThreadAccountsServiceTest.makeMultipleTransfer()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.db.awmd.challenge.MultiThreadAccountsServiceTest@51e5fc98]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2017-10-19T17:30:15Z" finished-at="2017-10-19T17:30:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.db.awmd.challenge.MultiThreadAccountsServiceTest.makeMultipleTransfer()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.db.awmd.challenge.MultiThreadAccountsServiceTest@51e5fc98]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2017-10-19T17:30:15Z" finished-at="2017-10-19T17:30:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.db.awmd.challenge.MultiThreadAccountsServiceTest.makeMultipleTransfer()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.db.awmd.challenge.MultiThreadAccountsServiceTest@51e5fc98]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2017-10-19T17:30:15Z" finished-at="2017-10-19T17:30:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.db.awmd.challenge.MultiThreadAccountsServiceTest.makeMultipleTransfer()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.db.awmd.challenge.MultiThreadAccountsServiceTest@51e5fc98]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2017-10-19T17:30:15Z" finished-at="2017-10-19T17:30:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.db.awmd.challenge.MultiThreadAccountsServiceTest.makeMultipleTransfer()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.db.awmd.challenge.MultiThreadAccountsServiceTest@51e5fc98]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2017-10-19T17:30:15Z" finished-at="2017-10-19T17:30:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.db.awmd.challenge.MultiThreadAccountsServiceTest.makeMultipleTransfer()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.db.awmd.challenge.MultiThreadAccountsServiceTest@51e5fc98]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2017-10-19T17:30:15Z" finished-at="2017-10-19T17:30:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.db.awmd.challenge.MultiThreadAccountsServiceTest.makeMultipleTransfer()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.db.awmd.challenge.MultiThreadAccountsServiceTest@51e5fc98]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2017-10-19T17:30:15Z" finished-at="2017-10-19T17:30:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.db.awmd.challenge.MultiThreadAccountsServiceTest.makeMultipleTransfer()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:com.db.awmd.challenge.MultiThreadAccountsServiceTest@51e5fc98]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2017-10-19T17:30:15Z" finished-at="2017-10-19T17:30:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- com.db.awmd.challenge.MultiThreadAccountsServiceTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
